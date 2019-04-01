@@ -10,3 +10,13 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# debug files
+cmd/demo/debug
+**/debug
+
+# config file is ignored to ensure sensitive information is kept out of git
+cmd/demo/config.json
+
+vendor/
+
